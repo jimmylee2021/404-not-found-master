@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;500;600;700;800;900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  padding: 20px;
+}
+header h1 {
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+  color: #333333;
+}
+.row {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     margin-top: 50px;
+}
+.row-1 img {
+     width: 286px;
+}
+.row-2 h1 {
+   font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 51px;
+letter-spacing: -0.035em;
+
+/* Gray 1 */
+width: 320px;
+color: #333333;
+}
+.row-2 p {
+margin-top: 30px;
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: -0.035em;
+
+/* Gray 2 */
+width: 328px;
+color: #4F4F4F;
+}
+.btn {
+   padding: 15px 36px;
+   margin-top: 20px;
+   background:#333333;
+   display: inline-block;
+   color: #ffff;
+   text-decoration: none;
+     font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+letter-spacing: -0.035em;
+text-transform: uppercase;
+}
+footer {
+   text-align: center;
+   margin-top: 100px;
+   color: #BDBDBD;
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-size: 12px;
+}
+footer a {
+  color: #BDBDBD;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 991px) {
+   .row-1 img {
+     width: 528px;
+   }
+   .row-2 {
+     margin-left: 50px;
+   }
+   .row-2 h1 {
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    width: 586px;
+   }
+   .row-2 p {
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    width: 381px;
+   }
+   footer {
+     font-size: 20px;
+   }
+}
